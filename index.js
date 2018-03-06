@@ -10,7 +10,9 @@ function nowServing(){
   if(katzDeliLine ===0){
     console.log("There is nobody waiting to be served!")
   }
-
+else{
+  var line = 
+}
   
   
   
