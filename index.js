@@ -22,6 +22,7 @@ function currentLine(deliLine){
   }
 else{
   name = deliLine.shift();
+  return `The line is currently: ${name}`;
 }
   
   
