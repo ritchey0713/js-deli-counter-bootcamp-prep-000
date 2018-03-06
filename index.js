@@ -1,5 +1,6 @@
 function takeANumber(katzDeliLine, name){
-  var position = "welcome, " + name+". You are number" + katzDeliLine +1 +" in line.";
+  var adjustedPostion = katzDeliLine+1;
+  var position = "Welcome, " + name+". You are number" + katzDeliLine +1 +" in line.";
   return position;
   
 }
