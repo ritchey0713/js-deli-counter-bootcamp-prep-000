@@ -21,8 +21,8 @@ function currentLine(deliLine){
     return "The line is currently empty."
   }
 else{
-  name = deliLine.shift()
-  return `The line is currently: ${name}.`
+ varline = "The line is currently: "
+  
 }
   
   
