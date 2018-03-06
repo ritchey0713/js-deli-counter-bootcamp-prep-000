@@ -13,9 +13,11 @@ function nowServing(katzDeliLine){
   else {
    name = katzDeliLine.shift(name)
   return `Currently serving ${name}.`
-    
+    }
   }
   
-  
-  
-}
+function currentLine(deliLine){
+  if (deliLine.lenth ==0){
+    return "the line is currently empty"
+  }
+}  
