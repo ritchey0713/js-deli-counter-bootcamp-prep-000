@@ -12,7 +12,7 @@ var name
   return "There is nobody waiting to be served!"}
   else {
     katzDeliLine.push(name)
-  return 
+  return `Now serving ${name}`
     
   }
   
