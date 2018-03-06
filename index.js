@@ -21,7 +21,7 @@ function currentLine(deliLine){
     return "The line is currently empty."
   }
 else{
-  name = deliLine.shift();
+  name = deliLine.shift()
   return `The line is currently: ${name}`
 }
   
