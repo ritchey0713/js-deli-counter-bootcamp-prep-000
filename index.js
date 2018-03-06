@@ -22,9 +22,9 @@ function currentLine(deliLine){
   }
 else{
  var line = `The line is currently: 1.${deliLine[0]}`
- for(var i = 2; i<=deliLine.length; i++)
+ for(var i = 2; i<=deliLine.length; i++){
  line = line + `${i}. ${deliLine[i-1]}`
-  
+ }
 }
   
   
