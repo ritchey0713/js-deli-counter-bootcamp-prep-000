@@ -22,6 +22,7 @@ function currentLine(deliLine){
   }
 else{
  var line = `The line is currently: 1.${name}`
+ for()
   
 }
   
