@@ -23,7 +23,7 @@ function currentLine(deliLine){
 else{
  var line = `The line is currently: 1.${name}`
  for(var i = 2; i<=deliLine.length; i++)
- line = line + `${i}. ${deliLine}
+ line = line + `${i}. ${deliLine[i-1]}`
   
 }
   
