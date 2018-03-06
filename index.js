@@ -25,6 +25,8 @@ else{
  for(var i = 2; i<=deliLine.length; i++){
  line = line + `,${i}. ${deliLine[i-1]}`
  }
+return line
+  
 }
   
   
