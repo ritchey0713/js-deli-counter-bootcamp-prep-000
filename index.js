@@ -21,7 +21,7 @@ function currentLine(deliLine){
     return "The line is currently empty."
   }
 else{
- varline = "The line is currently: 1."
+ varline = `The line is currently: 1.${name}`
   
 }
   
